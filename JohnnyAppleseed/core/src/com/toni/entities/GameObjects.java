@@ -6,15 +6,15 @@ import com.toni.Game;
 public class GameObjects {
     protected static final float PI = 3.14159f;
 
-    protected Vector2 pos;          // pos           - GameObject's xy-coordinates
-    protected Vector2 direction;    // direction     - GameObject's Velocity vector
-    protected float radians;        // radians       - Angle GameObject's facing
-    protected float speed;          // speed         - How fast GameObject's currently traveling
-    protected float rotationSpeed;  // rotationSpeed - How fast GameObject rotates
-    protected int width;            // width         - width of GameObject
-    protected int height;           // height        - height of GameObject
-    protected float[] shapex;       // shapex        - Array of vertices
-    protected float[] shapey;       // shapey        - Array of vertices
+    protected Vector2 pos;           // pos           - GameObject's xy-coordinates
+    protected Vector2 direction;     // direction     - GameObject's Velocity vector
+    protected float   radians;       // radians       - Angle GameObject's facing
+    protected float   speed;         // speed         - The GameObject's current speed
+    protected float   rotationSpeed; // rotationSpeed - How fast GameObject's rotates
+    protected int     width;         // width         - width of a GameObject
+    protected int     height;        // height        - height of a GameObject
+    protected float[] shapex;        // shapex        - Array of vertices
+    protected float[] shapey;        // shapey        - Array of vertices
 
     /**
      * Prevent GameObjects from moving outside the game boundaries
